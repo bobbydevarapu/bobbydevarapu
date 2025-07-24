@@ -104,10 +104,17 @@
       max-width: 100%;
       border-radius: 8px;
     }
+    /* Fallback for images */
+    img {
+      display: block;
+    }
+    img[src=""] {
+      display: none;
+    }
   </style>
 </head>
 <body>
-  <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner">
+  <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
   <h3 align="center">A passionate B.Tech student specializing in Cloud Computing, Full-Stack Development, and Software Engineering from India</h3>
 
@@ -295,8 +302,8 @@
   <div class="stats">
     <h3 class="section-title">📊 GitHub Stats</h3>
     <div align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" onerror="this.style.display='none';">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" onerror="this.style.display='none';">
     </div>
   </div>
 </body>
