@@ -35,6 +35,7 @@
       object-fit: cover;
       border-radius: 10px;
       margin-bottom: 20px;
+      display: block; /* Ensure it displays */
     }
     .badges, .connect, .tools, .projects, .experience, .achievements, .about {
       text-align: center;
@@ -104,19 +105,26 @@
       max-width: 100%;
       border-radius: 8px;
     }
-    /* Fallback for images */
+    /* Error handling for images */
     img {
       display: block;
     }
     img[src=""] {
       display: none;
     }
+    .error-message {
+      color: #e53e3e;
+      text-align: center;
+      font-size: 1em;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
-  <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
+  <img src="https://via.placeholder.com/900x200?text=Bobby+Devarapu+Profile+Banner" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none'; document.querySelector('.error-message').textContent='Banner image failed to load. Please check your internet connection or replace the URL.';">
+  <div class="error-message"></div>
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
-  <h3 align="center">A passionate B.Tech student specializing in Cloud Computing, Full-Stack Development, and Software Engineering from India</h3>
+  <h3 align="center">A passionate B.Tech student specializing in Cloud Computing, Full-Stack Development, and Software Engineering</h3>
 
   <div class="badges" align="center">
     <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
@@ -161,7 +169,7 @@
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="32" width="42" />
       </a>
       <a href="https://www.codechef.com/users/bbydevarapu" target="_blank">
-        <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="CodeChef" height="32" width="42" />
+        <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codechef.svg" alt="CodeChef" height="32" width="42" />
       </a>
       <a href="https://leetcode.com/u/bobbydevarapu" target="_blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="32" width="42" />
@@ -302,8 +310,8 @@
   <div class="stats">
     <h3 class="section-title">📊 GitHub Stats</h3>
     <div align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" onerror="this.style.display='none';">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" onerror="this.style.display='none';">
+      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" onerror="this.style.display='none'; document.querySelector('.error-message').textContent+=' GitHub stats failed to load.';">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" onerror="this.style.display='none'; document.querySelector('.error-message').textContent+=' Top languages failed to load.';">
     </div>
   </div>
 </body>
