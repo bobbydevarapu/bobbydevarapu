@@ -4,61 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bobby Devarapu's Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
       line-height: 1.6;
       margin: 0 auto;
-      max-width: 800px;
-      padding: 20px;
-      background-color: #f4f4f4;
+      max-width: 900px;
+      padding: 30px;
+      background: linear-gradient(to bottom, #f4f4f9, #e0e7ff);
+      color: #2d3748;
     }
     h1, h3 {
       text-align: center;
-      color: #333;
+      color: #1a202c;
     }
-    .badges, .connect, .tools, .projects, .experience, .achievements {
+    h1 {
+      font-size: 2.5em;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 1.5em;
+      font-weight: 400;
+      color: #4a5568;
+    }
+    .profile-banner {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .badges, .connect, .tools, .projects, .experience, .achievements, .about {
       text-align: center;
-      margin: 20px 0;
+      margin: 30px 0;
     }
     .badges img, .connect img, .tools img {
-      margin: 5px;
+      margin: 8px;
+      transition: transform 0.3s ease;
+    }
+    .connect img:hover, .tools img:hover {
+      transform: scale(1.2);
     }
     a {
-      color: #007bff;
+      color: #3182ce;
       text-decoration: none;
+      font-weight: 500;
     }
     a:hover {
       text-decoration: underline;
+      color: #2b6cb0;
     }
     hr {
       border: 0;
-      height: 1px;
-      background: #ccc;
-      margin: 20px 0;
+      height: 2px;
+      background: linear-gradient(to right, #cbd5e0, #4a5568, #cbd5e0);
+      margin: 30px 0;
     }
     ul {
       list-style-type: none;
       padding: 0;
     }
     li {
-      margin: 10px 0;
+      margin: 12px 0;
+      font-size: 1.1em;
     }
     .section-title {
-      font-size: 1.5em;
-      color: #222;
-      margin-bottom: 10px;
+      font-size: 1.8em;
+      font-weight: 600;
+      color: #1a202c;
+      margin-bottom: 15px;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #3182ce;
+      margin: 8px auto;
+      border-radius: 2px;
+    }
+    .projects li, .experience li {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .stats img {
+      max-width: 100%;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
+  <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
   <h3 align="center">A passionate B.Tech student specializing in Cloud Computing, Full-Stack Development, and Software Engineering from India</h3>
 
   <div class="badges" align="center">
-    <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue" alt="Cloud Computing Badge">
-    <img src="https://img.shields.io/badge/Software%20Engineering-C%2B%2B%20%26%20Java-brightgreen" alt="Software Engineering Badge">
-    <img src="https://img.shields.io/badge/Competitive%20Programmer-LeetCode%201600%2B-orange" alt="Competitive Programmer Badge">
+    <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
+    <img src="https://img.shields.io/badge/Software%20Engineering-C%2B%2B%20%26%20Java-brightgreen?style=for-the-badge" alt="Software Engineering Badge">
+    <img src="https://img.shields.io/badge/Competitive%20Programmer-LeetCode%201600%2B-orange?style=for-the-badge" alt="Competitive Programmer Badge">
   </div>
 
   <hr>
@@ -66,16 +122,14 @@
   <div class="about">
     <h3 class="section-title">👨‍💻 About Me</h3>
     <ul>
-      <li>🎓 <em>Education:</em> B.Tech in Computer Science and Engineering, Aditya College of Engineering and Technology (CGPA: 8.33, Nov 2023 - Present)</li>
-      <li>🔭 <em>Currently working on:</em> <a href="https://github.com/bobbydevarapu/ProctoX">ProctoX - Online AI Proctoring Platform</a></li>
-      <li>🌱 <em>Currently learning:</em> Advanced AWS Cloud Architecture, GraphQL, Machine Learning</li>
-      <li>👯 <em>Looking to collaborate on:</em> Real-time Web Applications and Cloud-based Solutions</li>
-      <li>🤝 <em>Need help with:</em> Scalable Cloud Deployments and IoT Integrations</li>
-      <li>👨‍💻 <em>My work:</em> <a href="https://github.com/bobbydevarapu">GitHub Portfolio</a></li>
-      <li>💬 <em>Ask me about:</em> AWS, C++, Java, React, DSA</li>
+      <li>🔭 <em>I’m currently working on:</em> <a href="https://github.com/bobbydevarapu/ProctoX">ProctoX - Online AI Proctoring Platform</a>, building a secure, scalable solution for remote assessments using AWS and React.</li>
+      <li>👯 <em>I’m looking to collaborate on:</em> Real-time web applications and cloud-based projects, especially those leveraging AWS, Node.js, or React for innovative solutions.</li>
+      <li>🤝 <em>I’m looking for help with:</em> Designing scalable cloud architectures and integrating IoT with AWS for real-world applications.</li>
+      <li>🌱 <em>I’m currently learning:</em> Advanced AWS Cloud Architecture, GraphQL, and Machine Learning to enhance my full-stack and cloud expertise.</li>
+      <li>💬 <em>Ask me about:</em> AWS, C++, Java, React, or Data Structures and Algorithms—I love diving into problem-solving!</li>
+      <li>⚡ <em>Fun fact:</em> I’ve solved 600+ DSA problems across LeetCode and CodeChef, and I still get a thrill from cracking a tough coding challenge!</li>
       <li>📫 <em>How to reach me:</em> Email me at <a href="mailto:bobbyd967@gmail.com">bobbyd967@gmail.com</a> or <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/">LinkedIn</a></li>
       <li>📄 <em>Know my experience:</em> <a href="https://drive.google.com/file/d/your-resume-link/view">Resume</a></li>
-      <li>⚡ <em>Fun Fact:</em> I’ve solved 600+ DSA problems and still enjoy untangling complex code challenges!</li>
     </ul>
   </div>
 
@@ -85,25 +139,25 @@
     <h3 class="section-title">🌐 Connect with Me</h3>
     <div align="center">
       <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="32" width="42" />
       </a>
       <a href="https://github.com/bobbydevarapu" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="32" width="42" />
       </a>
       <a href="https://codeforces.com/profile/Bobby_01" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="32" width="42" />
       </a>
       <a href="https://www.hackerrank.com/profile/bobbyd9676" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="32" width="42" />
       </a>
       <a href="https://www.geeksforgeeks.org/user/bobbydz1hq/" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="32" width="42" />
       </a>
       <a href="https://www.codechef.com/users/bbydevarapu" target="_blank">
-        <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="CodeChef" height="30" width="40" />
+        <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="CodeChef" height="32" width="42" />
       </a>
       <a href="https://leetcode.com/u/bobbydevarapu" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="32" width="42" />
       </a>
     </div>
   </div>
@@ -114,46 +168,46 @@
     <h3 class="section-title">🛠 Languages and Tools</h3>
     <div align="center">
       <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
       </a>
       <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
       </a>
       <a href="https://www.java.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" />
       </a>
       <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
       </a>
       <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
       </a>
       <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
       </a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
       </a>
       <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
       </a>
       <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" />
       </a>
       <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
       </a>
       <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
       </a>
       <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" />
       </a>
       <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="36" height="36" />
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
       </a>
       <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="36" height="36" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
       </a>
     </div>
   </div>
@@ -234,6 +288,16 @@
         - Red Hat Certified System Administrator (RHCSA)
       </li>
     </ul>
+  </div>
+
+  <hr>
+
+  <div class="stats">
+    <h3 class="section-title">📊 GitHub Stats</h3>
+    <div align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
+    </div>
   </div>
 </body>
 </html>
