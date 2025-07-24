@@ -1,9 +1,9 @@
 name: GitHub Snake Game
 
 on:
-  # Schedule the workflow to run daily at midnight UTC
+  # Schedule the workflow to run daily at 6:00 AM IST (12:30 UTC)
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 12 * * *' # Adjusted to 12:30 UTC (6:00 AM IST)
 
   # Allow manual triggering of the workflow
   workflow_dispatch:
@@ -21,16 +21,13 @@ jobs:
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to latest version
 
       # Step 2: Generate the snake animations
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
-          # GitHub username to generate the animation for
-          github_user_name: bobbydevarapu
-
-          # Define the output files and their configurations
+          github_user_name: bobbydevarapu # Your GitHub username
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
@@ -40,10 +37,9 @@ jobs:
 
       # Step 3: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4 # Updated to latest version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          # Optionally, you can set a custom commit message
           commit_message: "Update snake animation for bobbydevarapu [skip ci]"
