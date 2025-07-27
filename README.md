@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
-  <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer| Software Engineering </h3>
+  <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineering</h3>
 
   <div class="badges" align="center">
     <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
@@ -18,18 +17,18 @@
 
   <hr>
 
- <div class="about">
-  <h3 class="section-title">👨‍💻 About Me</h3>
-  <ul>
-    <li>👯 <em>Collaboration:</em> Real-time web and cloud projects with AWS or React.</li>
-    <li>🤝 <em>Need help with:</em> Scalable cloud designs and IoT integration.</li>
-    <li>🌱 <em>Learning:</em> AWS Architecture, GraphQL, and Machine Learning.</li>
-    <li>💬 <em>Ask me about:</em> AWS, C++, Java, or DSA.</li>
-    <li>⚡ <em>Fun fact:</em> Solved 600+ DSA problems!</li>
-    <li>📫 <em>Reach me:</em> <a href="mailto:bobbyd967@gmail.com">Email</a> or <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/">LinkedIn</a></li>
-    <li>📄 <em>Resume:</em> <a href="https://drive.google.com/file/d/your-resume-link/view">View</a></li>
-  </ul>
-</div>
+  <div class="about">
+    <h3 class="section-title">👨‍💻 About Me</h3>
+    <ul>
+      <li>👯 <em>Collaboration:</em> Real-time web and cloud projects with AWS or React.</li>
+      <li>🤝 <em>Need help with:</em> Scalable cloud designs and IoT integration.</li>
+      <li>🌱 <em>Learning:</em> AWS Architecture, GraphQL, and Machine Learning.</li>
+      <li>💬 <em>Ask me about:</em> AWS, C++, Java, or DSA.</li>
+      <li>⚡ <em>Fun fact:</em> Solved 600+ DSA problems!</li>
+      <li>📫 <em>Reach me:</em> <a href="mailto:bobbyd967@gmail.com">Email</a> or <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/">LinkedIn</a></li>
+      <li>📄 <em>Resume:</em> <a href="https://drive.google.com/file/d/your-resume-link/view">View</a> <!-- Replace with your actual resume link --></li>
+    </ul>
+  </div>
 
   <hr>
 
@@ -113,7 +112,7 @@
   <hr>
 
   <div class="experience">
-    <h3 class="section-title">🚀 Experience</h3>
+    <h3 class="section-title">🌟 Experience</h3>
     <ul>
       <li>
         <strong>Trainee - Technical Hub</strong> [Jan 2024 - May 2025]<br>
@@ -195,11 +194,9 @@
     <div align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
+      <img src="https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/github-snake-dark.svg" alt="Snake animation" />
+      <!-- Alternative: Use GIF if preferred: <img src="https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/ocean.gif" alt="Snake animation" /> -->
     </div>
   </div>
-
-  ![Snake animation](https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/github-snake-dark.svg)
 </body>
 </html>
-
-
