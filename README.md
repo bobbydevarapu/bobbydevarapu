@@ -197,7 +197,9 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
     </div>
   </div>
+
+  ![Snake animation](https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/github-snake-dark.svg)
 </body>
 </html>
 
-![Snake animation](https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/github-snake-dark.svg)
+
