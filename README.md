@@ -199,3 +199,5 @@
   </div>
 </body>
 </html>
+
+![Snake animation](https://github.com/bobbydevarapu/bobbydevarapu/blob/output/dist/github-snake-dark.svg)
