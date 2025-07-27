@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <img src="https://via.placeholder.com/900x200?text=Profile+Banner" alt="Profile Banner" class="profile-banner">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
   <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineering</h3>
 
