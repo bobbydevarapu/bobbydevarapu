@@ -18,19 +18,18 @@
 
   <hr>
 
-  <div class="about">
-    <h3 class="section-title">👨‍💻 About Me</h3>
-    <ul>
-      <li>🔭 <em>I’m currently working on:</em> <a href="https://github.com/bobbydevarapu/ProctoX">ProctoX - Online AI Proctoring Platform</a>, building a secure, scalable solution for remote assessments using AWS and React.</li>
-      <li>👯 <em>I’m looking to collaborate on:</em> Real-time web applications and cloud-based projects, especially those leveraging AWS, Node.js, or React for innovative solutions.</li>
-      <li>🤝 <em>I’m looking for help with:</em> Designing scalable cloud architectures and integrating IoT with AWS for real-world applications.</li>
-      <li>🌱 <em>I’m currently learning:</em> Advanced AWS Cloud Architecture, GraphQL, and Machine Learning to enhance my full-stack and cloud expertise.</li>
-      <li>💬 <em>Ask me about:</em> AWS, C++, Java, React, or Data Structures and Algorithms—I love diving into problem-solving!</li>
-      <li>⚡ <em>Fun fact:</em> I’ve solved 600+ DSA problems across LeetCode and CodeChef, and I still get a thrill from cracking a tough coding challenge!</li>
-      <li>📫 <em>How to reach me:</em> Email me at <a href="mailto:bobbyd967@gmail.com">bobbyd967@gmail.com</a> or <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/">LinkedIn</a></li>
-      <li>📄 <em>Know my experience:</em> <a href="https://drive.google.com/file/d/your-resume-link/view">Resume</a></li>
-    </ul>
-  </div>
+ <div class="about">
+  <h3 class="section-title">👨‍💻 About Me</h3>
+  <ul>
+    <li>👯 <em>Collaboration:</em> Real-time web and cloud projects with AWS or React.</li>
+    <li>🤝 <em>Need help with:</em> Scalable cloud designs and IoT integration.</li>
+    <li>🌱 <em>Learning:</em> AWS Architecture, GraphQL, and Machine Learning.</li>
+    <li>💬 <em>Ask me about:</em> AWS, C++, Java, or DSA.</li>
+    <li>⚡ <em>Fun fact:</em> Solved 600+ DSA problems!</li>
+    <li>📫 <em>Reach me:</em> <a href="mailto:bobbyd967@gmail.com">Email</a> or <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/">LinkedIn</a></li>
+    <li>📄 <em>Resume:</em> <a href="https://drive.google.com/file/d/your-resume-link/view">View</a></li>
+  </ul>
+</div>
 
   <hr>
 
