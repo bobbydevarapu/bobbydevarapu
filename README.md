@@ -4,11 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, span, em, strong {
-      font-family: 'Garamond', 'Times New Roman', Times, serif !important;
-    }
-  </style>
 </head>
 <body>
   <img src="Gitbanner.png" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
