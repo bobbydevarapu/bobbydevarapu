@@ -142,7 +142,7 @@
     <h3 class="section-title">🚀 Projects</h3>
     <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
       <div class="project-card">
-        <img src="realtime-stock.png" alt="Stock Market Analytics" />
+        <img src="#" alt="Stock Market Analytics" />
         <strong>Real-Time Stock Market Analytics Pipeline</strong><br>
         <span style="font-size:0.95em;">AWS Cloud, Python, Kinesis</span><br>
         <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Project Link</a>
@@ -154,7 +154,7 @@
         </ul>
       </div>
       <div class="project-card">
-        <img src="automated-receipt.png" alt="Receipt Processing System" />
+        <img src="#" alt="Receipt Processing System" />
         <strong>Automated Receipt Processing System</strong><br>
         <span style="font-size:0.95em;">AWS S3, Textract, Lambda, SES</span><br>
         <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Project Link</a>
@@ -165,7 +165,7 @@
         </ul>
       </div>
       <div class="project-card">
-        <img src="Intelligent Incident.png" alt="Incident Recovery System" />
+        <img src="#" alt="Incident Recovery System" />
         <strong>Intelligent Incident Recovery System</strong><br>
         <span style="font-size:0.95em;">Python/Java, AWS Lambda, DynamoDB</span><br>
         <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Project Link</a>
