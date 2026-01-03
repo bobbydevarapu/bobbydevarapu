@@ -7,8 +7,6 @@
 </head>
 <body>
   <img src="Gitbanner.png" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
-  <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
-  <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineering</h3>
 
   <div class="badges" align="center">
     <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
