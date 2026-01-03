@@ -1,49 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-      body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, span, em, strong {
-        font-family: 'Garamond', 'Times New Roman', Times, serif !important;
-      }
-      .project-card {
-        display: inline-block;
-        vertical-align: top;
-        width: 320px;
-        margin: 12px;
-        border-radius: 16px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-        background: #18191a;
-        color: #fff;
-        padding: 18px 16px 16px 16px;
-        box-sizing: border-box;
-        text-align: left;
-      }
-      .project-card img {
-        width: 100%;
-        height: 120px;
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-        margin-bottom: 10px;
-        background: #222;
-      }
-      .project-card strong {
-        font-size: 1.1em;
-        color: #ffd700;
-      }
-      .project-card a {
-        color: #4fa3ff;
-        text-decoration: underline;
-        font-size: 0.98em;
-      }
-      .project-card ul {
-        margin: 8px 0 0 18px;
-        padding: 0;
-        font-size: 0.97em;
-      }
-      .project-card li {
-        margin-bottom: 4px;
-      }
-    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -159,7 +116,7 @@
         Kakinada, Andhra Pradesh<br>
         May 2025 – July 2025<br>
         Surampalem, Andhra Pradesh<br>
-        <a href="https://github.com/bobbydevarapu/AWS-Projects">GitHub</a><br>
+        <a href="https://github.com/bobbydevarapu/">GitHub</a><br>
         • Deployed and monitored AWS infrastructure (EC2, S3, IAM, CloudWatch) for 5+ applications in test environments.<br>
         • Created Python/Bash automation scripts that streamlined cloud configuration tasks by 25%.<br>
         • Monitored system metrics and streamlined performance checks, enhancing stability while lowering repetitive interventions by 15%.<br>
@@ -170,7 +127,7 @@
         SmartBridge Educational Services Pvt. Ltd – Gen AI Intern<br>
         June 2025 – July 2025<br>
         Remote, Andhra Pradesh<br>
-        <a href="https://github.com/bobbydevarapu/GenAI-Projects">GitHub</a><br>
+        <a href="https://github.com/bobbydevarapu/">GitHub</a><br>
         • Completed a Generative AI internship on IBM Cloud, delivering 100% of milestones on schedule.<br>
         • Processed and evaluated 12+ datasets to support preprocessing and improve baseline model testing accuracy by 18%.<br>
         • Constructed optimized data-preprocessing pipelines using Python, boosting stability and minimizing manual effort.<br>
@@ -218,7 +175,41 @@
         </ul>
       </div>
     </div>
-  </div>
+      </div>
+      <h3 class="section-title">🚀 Projects</h3>
+    
+      <table>
+        <tr>
+          <td>
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" width="200"/><br>
+            <b>Real-Time Stock Market Analytics Pipeline</b><br>
+            <i>AWS Cloud, Python, Kinesis</i><br>
+            <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Project Link</a><br>
+            • Architected a serverless real-time data pipeline using Kinesis, Lambda, and DynamoDB.<br>
+            • Applied anomaly detection logic in Lambda with SNS alerts.<br>
+            • Configured CloudWatch dashboards for monitoring.<br>
+            • Exposed processed data through REST endpoints.<br>
+          </td>
+          <td>
+            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/user-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/img-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e2.png?auto=format&fit=crop&w=400&q=80" width="200"/><br>
+            <b>Automated Receipt Processing System</b><br>
+            <i>AWS S3, Textract, Lambda, SES</i><br>
+            <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Project Link</a><br>
+            • Designed a Textract-based OCR workflow.<br>
+            • Developed Lambda-based validation pipelines.<br>
+            • Enabled SES-based scheduled reporting.<br>
+          </td>
+          <td>
+            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/user-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/img-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e2.png?auto=format&fit=crop&w=400&q=80" width="200"/><br>
+            <b>Intelligent Incident Recovery System</b><br>
+            <i>Python/Java, AWS Lambda, DynamoDB</i><br>
+            <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Project Link</a><br>
+            • Engineered an automated log-classification pipeline.<br>
+            • Implemented restart, cleanup, and scaling workflows.<br>
+            • Automated incident triage and alerting workflows.<br>
+          </td>
+        </tr>
+      </table>
 
   <hr>
 
