@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -175,41 +176,7 @@
         </ul>
       </div>
     </div>
-      </div>
-      <h3 class="section-title">🚀 Projects</h3>
-    
-      <table>
-        <tr>
-          <td>
-            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" width="200"/><br>
-            <b>Real-Time Stock Market Analytics Pipeline</b><br>
-            <i>AWS Cloud, Python, Kinesis</i><br>
-            <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Project Link</a><br>
-            • Architected a serverless real-time data pipeline using Kinesis, Lambda, and DynamoDB.<br>
-            • Applied anomaly detection logic in Lambda with SNS alerts.<br>
-            • Configured CloudWatch dashboards for monitoring.<br>
-            • Exposed processed data through REST endpoints.<br>
-          </td>
-          <td>
-            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/user-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/img-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e2.png?auto=format&fit=crop&w=400&q=80" width="200"/><br>
-            <b>Automated Receipt Processing System</b><br>
-            <i>AWS S3, Textract, Lambda, SES</i><br>
-            <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Project Link</a><br>
-            • Designed a Textract-based OCR workflow.<br>
-            • Developed Lambda-based validation pipelines.<br>
-            • Enabled SES-based scheduled reporting.<br>
-          </td>
-          <td>
-            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/user-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e/img-2b1b1e5e2e2e4e3e8e2e2e2e2e2e2e2e2.png?auto=format&fit=crop&w=400&q=80" width="200"/><br>
-            <b>Intelligent Incident Recovery System</b><br>
-            <i>Python/Java, AWS Lambda, DynamoDB</i><br>
-            <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Project Link</a><br>
-            • Engineered an automated log-classification pipeline.<br>
-            • Implemented restart, cleanup, and scaling workflows.<br>
-            • Automated incident triage and alerting workflows.<br>
-          </td>
-        </tr>
-      </table>
+  </div>
 
   <hr>
 
