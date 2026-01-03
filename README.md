@@ -4,123 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, span, em, strong {
+      font-family: 'Garamond', 'Times New Roman', Times, serif !important;
+    }
+  </style>
 </head>
 <body>
-  <img src="https://via.placeholder.com/900x200?text=Bobby+Devarapu+Profile+Banner" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
+  <img src="Gitbanner.png" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
   <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineering</h3>
-<!-- Header / Banner -->
-![Profile Banner](https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/main/banner.png)
 
-# Hi, I'm Bobby Devarapu 👋
-
-**B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineer**
-
-- 📍 Kakinada, Andhra Pradesh, India
-- ✉️ bobbyd9676@gmail.com  •  📞 +91 9063112566
-- LinkedIn: https://linkedin.com/in/bobbydevarapu  •  GitHub: https://github.com/bobbydevarapu
-
-<!-- Badges -->
-[![LeetCode](https://img.shields.io/badge/LeetCode-1400%2B-FB7A39)](https://leetcode.com/bobbydevarapu)
-[![CodeChef](https://img.shields.io/badge/CodeChef-3%20Star-ff4500)](https://www.codechef.com/users/bobbydevarapu)
-[![AWS](https://img.shields.io/badge/AWS-Developer-232F3E?logo=amazon-aws)](https://aws.amazon.com)
-
----
-
-## About Me
-
-I build reliable cloud-native systems and automated pipelines. I enjoy solving algorithmic challenges and applying cloud automation to make systems resilient and maintainable.
-
-- Collaboration: Real-time web and cloud projects using AWS and React.
-- Need help with: Scalable cloud design and IoT integration.
-- Learning: AWS Architecture, GraphQL, and Machine Learning.
-- Ask me about: AWS, C++, Java, or DSA.
-- Fun fact: Solved 600+ DSA problems across platforms.
-
----
-
-## Experience
-
-- **AWS Development Intern** — Technical Hub Pvt. Ltd (May 2025 – July 2025)
-  - Deployed and monitored AWS infra (EC2, S3, IAM, CloudWatch) for 5+ apps in test environments.
-  - Wrote Python/Bash automation that reduced cloud configuration time by ~25%.
-  - Improved stability by adding monitoring and automated checks, lowering manual interventions by 15%.
-
-- **Generative AI Intern** — SmartBridge Educational Services Pvt. Ltd (June 2025 – July 2025, Remote)
-  - Delivered all milestones on IBM Cloud; processed 12+ datasets to improve baseline model testing accuracy by 18%.
-  - Built robust data-preprocessing pipelines using Python to reduce manual effort.
-
----
-
-## Projects
-
-- **Real-Time Stock Market Analytics Pipeline** — AWS, Python, Kinesis (Oct 2025)
-  - Serverless data pipeline with Kinesis, Lambda, DynamoDB; anomaly detection with SNS alerts and S3 logging.
-
-- **Automated Receipt Processing System** — AWS S3, Textract, Lambda, SES (Aug 2025)
-  - Textract OCR ingestion, Lambda validation pipelines, DynamoDB storage, SES reporting automation.
-
-- **Intelligent Incident Recovery System** — Python/Java, AWS Lambda, DynamoDB (Dec 2024)
-  - Automated log classification for 2,000+ events/day and automated recovery workflows reducing MTTR by ~80%.
-
-Links: View project repos and demos on my GitHub profile.
-
----
-
-## Technical Skills
-
-- Programming: Java, Python, C++, SQL
-- Cloud & DevOps: AWS (EC2, S3, Lambda, IAM, CloudWatch), Git, GitHub, Jenkins, Maven
-- Core CS: Data Structures, Algorithms, OOP
-- OS: Linux (RHEL)
-
----
-
-## Certifications
-
-- AWS Certified Developer – Associate
-- Java IT Specialist (Pearson)
-- Red Hat Certified System Administrator (RHCSA)
-- Cisco CCNA v7 – Introduction to Networks
-
----
-
-## Achievements
-
-- Participated in 30+ hackathons (GFG, Unstop).
-- 3-Star CodeChef; 1400+ LeetCode rating; 600+ DSA problems solved.
-
----
-
-## Visuals & GitHub Stats
-
-- Contribution Graph
-
-![Contributions Graph](https://ghchart.rshah.org/bobbydevarapu)
-
-- Animated snake overlay (decorative)
-
-![snake animation](https://raw.githubusercontent.com/Platane/snk/master/snake.svg)
-
-- GitHub Stats
-
-![Bobby's GitHub stats](https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dark&locale=en)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dark)
-
----
-
-If you'd like the profile to use the Garamond font exactly, GitHub README markdown doesn't allow custom fonts—common workarounds are:
-
-- Create a small header banner image rendered in Garamond (I can generate this for you), or
-- Use SVG images (text rendered into SVG using Garamond) for headings where precise typography is required.
-
-Would you like me to: (A) generate a Garamond banner image and replace the top image, (B) add links to specific project repos inside the Projects section, or (C) tweak colors/emoji density?
+  <div class="badges" align="center">
+    <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
     <img src="https://img.shields.io/badge/Software%20Engineering-C%2B%2B%20%26%20Java-brightgreen?style=for-the-badge" alt="Software Engineering Badge">
     <img src="https://img.shields.io/badge/Competitive%20Programmer-LeetCode%201400%2B-orange?style=for-the-badge" alt="Competitive Programmer Badge">
   </div>
-
   <hr>
-
   <div class="about">
     <h3 class="section-title">👨‍💻 About Me</h3>
     <ul>
@@ -130,7 +30,6 @@ Would you like me to: (A) generate a Garamond banner image and replace the top i
       <li>💬 <em>Ask me about:</em> AWS, C++, Java, or DSA.</li>
       <li>⚡ <em>Fun fact:</em> Solved 600+ DSA problems!</li>
       <li>📫 <em>Reach me:</em> <a href="mailto:bobbyd9676@gmail.com">Email</a> or <a href="https://www.linkedin.com/in/bobbydevarapu/">LinkedIn</a></li>
-      <li>📄 <em>Resume:</em> <a href="https://drive.google.com/file/d/1-abc123xyz/view?usp=sharing">View</a> <!-- Replace with your actual resume link --></li>
     </ul>
   </div>
 
@@ -139,7 +38,7 @@ Would you like me to: (A) generate a Garamond banner image and replace the top i
   <div class="connect">
     <h3 class="section-title">🌐 Connect with Me</h3>
     <div align="center">
-      <a href="https://www.linkedin.com/in/bobby-devarapu-43874a2ab/" target="_blank">
+      <a href="https://www.linkedin.com/in/bobbydevarapu/" target="_blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="32" width="42" />
       </a>
       <a href="https://github.com/bobbydevarapu" target="_blank">
@@ -155,7 +54,7 @@ Would you like me to: (A) generate a Garamond banner image and replace the top i
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="32" width="42" />
       </a>
       <a href="https://www.codechef.com/users/bbydevarapu" target="_blank">
-        <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codechef.svg" alt="CodeChef" height="32" width="42" />
+        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codechef.svg" alt="CodeChef" height="32" width="42" />
       </a>
       <a href="https://leetcode.com/u/bobbydevarapu" target="_blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="32" width="42" />
@@ -219,62 +118,80 @@ Would you like me to: (A) generate a Garamond banner image and replace the top i
     <h3 class="section-title">🌟 Experience</h3>
     <ul>
       <li>
-        <strong>AWS Development Intern - Technical Hub Pvt. Ltd</strong> [May 2025 - Jul 2025]<br>
+        <strong>AWS Development Intern</strong><br>
+        Technical Hub Pvt. Ltd – AWS Developer<br>
+        Kakinada, Andhra Pradesh<br>
+        May 2025 – July 2025<br>
         Surampalem, Andhra Pradesh<br>
-        <a href="https://github.com/bobbydevarapu/AWS-Projects">GitHub</a> | <a href="https://your-demo-link">Demo</a><br>
-        - Orchestrated AWS services for a resilient cloud structure, supporting 5+ applications.<br>
-        - Created 25% unit tests with automation tools, ensuring AWS compliance and boosting performance.<br>
-        - Reduced deployment times by 30% with optimized resource allocation.<br>
-        - Engineered scalable solutions, improving responsiveness by 15%.
+        <a href="https://github.com/bobbydevarapu/AWS-Projects">GitHub</a><br>
+        • Deployed and monitored AWS infrastructure (EC2, S3, IAM, CloudWatch) for 5+ applications in test environments.<br>
+        • Created Python/Bash automation scripts that streamlined cloud configuration tasks by 25%.<br>
+        • Monitored system metrics and streamlined performance checks, enhancing stability while lowering repetitive interventions by 15%.<br>
+        • Connected backend services to cloud resources via REST APIs and tracked application-level behavior.<br>
       </li>
       <li>
-        <strong>Generative AI Intern - SmartBridge Educational Services Pvt. Ltd</strong> [Jun 2025 - Jul 2025]<br>
+        <strong>Generative AI Intern</strong><br>
+        SmartBridge Educational Services Pvt. Ltd – Gen AI Intern<br>
+        June 2025 – July 2025<br>
         Remote, Andhra Pradesh<br>
-        <a href="https://github.com/bobbydevarapu/GenAI-Projects">GitHub</a> | <a href="https://your-demo-link">Demo</a><br>
-        - Completed 100% of Generative AI milestones ahead of schedule, earning top recognition.<br>
-        - Achieved 98% team performance and 90% AI model accuracy.<br>
-        - Developed an AI-driven content tool with IBM Cloud, boosting productivity by 85%.
+        <a href="https://github.com/bobbydevarapu/GenAI-Projects">GitHub</a><br>
+        • Completed a Generative AI internship on IBM Cloud, delivering 100% of milestones on schedule.<br>
+        • Processed and evaluated 12+ datasets to support preprocessing and improve baseline model testing accuracy by 18%.<br>
+        • Constructed optimized data-preprocessing pipelines using Python, boosting stability and minimizing manual effort.<br>
       </li>
     </ul>
   </div>
 
   <hr>
 
-  <!-- HTML projects block removed; using Markdown "## Projects" section instead -->
+  <div class="projects">
+    <h3 class="section-title">🚀 Projects</h3>
+    <ul>
+      <li>
+        <strong>Real-Time Stock Market Analytics Pipeline</strong> | AWS Cloud, Python, Kinesis<br>
+        <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Link</a><br>
+        • Architected a serverless real-time data pipeline using Kinesis, Lambda, and DynamoDB to ingest and process events.<br>
+        • Applied anomaly detection logic in Lambda with SNS alerts for price spikes and logged insights to S3.<br>
+        • Configured CloudWatch dashboards that improved monitoring accuracy and cut manual data analysis time by 85%.<br>
+        • Exposed processed data through REST endpoints for downstream applications and monitoring tools.<br>
+      </li>
+      <li>
+        <strong>Automated Receipt Processing System</strong> | AWS S3, Textract, Lambda, SES<br>
+        <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Link</a><br>
+        • Designed a Textract-based OCR workflow with automated ingestion and structured DynamoDB storage.<br>
+        • Developed Lambda-based validation and transformation pipelines with retries and fault-tolerant execution.<br>
+        • Enabled SES-based scheduled reporting, reducing manual expense tracking by 80% through end-to-end automation.<br>
+      </li>
+      <li>
+        <strong>Intelligent Incident Recovery System</strong> | Python/Java, AWS Lambda, DynamoDB<br>
+        <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Link</a><br>
+        • Engineered an automated log-classification pipeline processing 2,000+ events/day across distributed services.<br>
+        • Implemented restart, cleanup, and scaling workflows that accelerated issue resolution by 80%.<br>
+        • Automated incident triage and alerting workflows, improving response efficiency across distributed systems.<br>
+      </li>
+    </ul>
+  </div>
 
   <hr>
 
   <div class="achievements">
     <h3 class="section-title">🏆 Achievements & Certifications</h3>
     <ul>
-      <li><strong>Coding Profiles:</strong><br>
-        - <strong>LeetCode:</strong> 1400+ rating, 600+ DSA problems, 30+ contests<br>
-        - <strong>CodeChef:</strong> 1300+ rating, 600+ problems<br>
-        - <strong>Codeforces:</strong> Active competitor<br>
-        - <strong>GeeksforGeeks:</strong> 516 coding score, 193 problems, 79 submissions in 2025
+      <li><strong>Achievements:</strong><br>
+        • Participated in 30+ hackathons across GFG and Unstop platforms.<br>
+        • Achieved a 3-Star CodeChef rating and 1400+ LeetCode rating by solving 600+ DSA problems.<br>
+        • Maintained active competitive programming profiles across LeetCode, CodeChef, GFG, and HackerRank.<br>
       </li>
       <li><strong>Certifications:</strong><br>
-        - AWS Cloud Developer-Associate<br>
-        - Data Structures & Algorithms<br>
-        - Java IT Specialist (Pearson)<br>
+        • AWS Certified Developer – Associate<br>
+        • Java IT Specialist (Pearson)<br>
+        • Red Hat Certified System Administrator (RHCSA)<br>
+        • Cisco CCNA v7 – Introduction to Networks<br>
       </li>
     </ul>
   </div>
 
   <hr>
-
-  <div class="stats">
-    <h3 class="section-title">📊 GitHub Stats</h3>
-    <div align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake-dark.svg" />
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake.svg" />
-            <!-- Fallback to Platane's example image while your workflow generates repository-specific images -->
-            <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-          </picture>
-    </div>
   </div>
 </body>
 </html>
