@@ -9,9 +9,112 @@
   <img src="https://via.placeholder.com/900x200?text=Bobby+Devarapu+Profile+Banner" alt="Profile Banner" class="profile-banner" onerror="this.style.display='none';">
   <h1 align="center">👋 Hi, I'm Bobby Devarapu</h1>
   <h3 align="center">B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineering</h3>
+<!-- Header / Banner -->
+![Profile Banner](https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/main/banner.png)
 
-  <div class="badges" align="center">
-    <img src="https://img.shields.io/badge/Cloud%20Computing-AWS%20%26%20Full--Stack-blue?style=for-the-badge" alt="Cloud Computing Badge">
+# Hi, I'm Bobby Devarapu 👋
+
+**B.Tech CSE | AWS Developer | Full-Stack Developer | Software Engineer**
+
+- 📍 Kakinada, Andhra Pradesh, India
+- ✉️ bobbyd9676@gmail.com  •  📞 +91 9063112566
+- LinkedIn: https://linkedin.com/in/bobbydevarapu  •  GitHub: https://github.com/bobbydevarapu
+
+<!-- Badges -->
+[![LeetCode](https://img.shields.io/badge/LeetCode-1400%2B-FB7A39)](https://leetcode.com/bobbydevarapu)
+[![CodeChef](https://img.shields.io/badge/CodeChef-3%20Star-ff4500)](https://www.codechef.com/users/bobbydevarapu)
+[![AWS](https://img.shields.io/badge/AWS-Developer-232F3E?logo=amazon-aws)](https://aws.amazon.com)
+
+---
+
+## About Me
+
+I build reliable cloud-native systems and automated pipelines. I enjoy solving algorithmic challenges and applying cloud automation to make systems resilient and maintainable.
+
+- Collaboration: Real-time web and cloud projects using AWS and React.
+- Need help with: Scalable cloud design and IoT integration.
+- Learning: AWS Architecture, GraphQL, and Machine Learning.
+- Ask me about: AWS, C++, Java, or DSA.
+- Fun fact: Solved 600+ DSA problems across platforms.
+
+---
+
+## Experience
+
+- **AWS Development Intern** — Technical Hub Pvt. Ltd (May 2025 – July 2025)
+  - Deployed and monitored AWS infra (EC2, S3, IAM, CloudWatch) for 5+ apps in test environments.
+  - Wrote Python/Bash automation that reduced cloud configuration time by ~25%.
+  - Improved stability by adding monitoring and automated checks, lowering manual interventions by 15%.
+
+- **Generative AI Intern** — SmartBridge Educational Services Pvt. Ltd (June 2025 – July 2025, Remote)
+  - Delivered all milestones on IBM Cloud; processed 12+ datasets to improve baseline model testing accuracy by 18%.
+  - Built robust data-preprocessing pipelines using Python to reduce manual effort.
+
+---
+
+## Projects
+
+- **Real-Time Stock Market Analytics Pipeline** — AWS, Python, Kinesis (Oct 2025)
+  - Serverless data pipeline with Kinesis, Lambda, DynamoDB; anomaly detection with SNS alerts and S3 logging.
+
+- **Automated Receipt Processing System** — AWS S3, Textract, Lambda, SES (Aug 2025)
+  - Textract OCR ingestion, Lambda validation pipelines, DynamoDB storage, SES reporting automation.
+
+- **Intelligent Incident Recovery System** — Python/Java, AWS Lambda, DynamoDB (Dec 2024)
+  - Automated log classification for 2,000+ events/day and automated recovery workflows reducing MTTR by ~80%.
+
+Links: View project repos and demos on my GitHub profile.
+
+---
+
+## Technical Skills
+
+- Programming: Java, Python, C++, SQL
+- Cloud & DevOps: AWS (EC2, S3, Lambda, IAM, CloudWatch), Git, GitHub, Jenkins, Maven
+- Core CS: Data Structures, Algorithms, OOP
+- OS: Linux (RHEL)
+
+---
+
+## Certifications
+
+- AWS Certified Developer – Associate
+- Java IT Specialist (Pearson)
+- Red Hat Certified System Administrator (RHCSA)
+- Cisco CCNA v7 – Introduction to Networks
+
+---
+
+## Achievements
+
+- Participated in 30+ hackathons (GFG, Unstop).
+- 3-Star CodeChef; 1400+ LeetCode rating; 600+ DSA problems solved.
+
+---
+
+## Visuals & GitHub Stats
+
+- Contribution Graph
+
+![Contributions Graph](https://ghchart.rshah.org/bobbydevarapu)
+
+- Animated snake overlay (decorative)
+
+![snake animation](https://raw.githubusercontent.com/Platane/snk/master/snake.svg)
+
+- GitHub Stats
+
+![Bobby's GitHub stats](https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dark&locale=en)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dark)
+
+---
+
+If you'd like the profile to use the Garamond font exactly, GitHub README markdown doesn't allow custom fonts—common workarounds are:
+
+- Create a small header banner image rendered in Garamond (I can generate this for you), or
+- Use SVG images (text rendered into SVG using Garamond) for headings where precise typography is required.
+
+Would you like me to: (A) generate a Garamond banner image and replace the top image, (B) add links to specific project repos inside the Projects section, or (C) tweak colors/emoji density?
     <img src="https://img.shields.io/badge/Software%20Engineering-C%2B%2B%20%26%20Java-brightgreen?style=for-the-badge" alt="Software Engineering Badge">
     <img src="https://img.shields.io/badge/Competitive%20Programmer-LeetCode%201400%2B-orange?style=for-the-badge" alt="Competitive Programmer Badge">
   </div>
@@ -137,33 +240,7 @@
 
   <hr>
 
-  <div class="projects">
-    <h3 class="section-title">🚀 Projects</h3>
-    <ul>
-      <li>
-        <a href="https://github.com/bobbydevarapu/GuardianFlow">GuardianFlow (Threat Detection System)</a><br>
-        October 2025<br>
-        - Built an ML pipeline with AWS S3, Lambda, and SageMaker for real-time threat detection.<br>
-        - XGBoost model achieved 90% accuracy with automated SageMaker Pipelines.<br>
-        - Reduced manual analysis by 80% with sub-second latency.<br>
-        <em>Tools:</em> AWS Cloud, Python, XGBoost
-      </li>
-      <li>
-        <a href="https://github.com/bobbydevarapu/SimplifAI">SimplifAI</a><br>
-        December 2025<br>
-        - Created an AI-powered web platform for document analysis with 90% comprehension.<br>
-        - Used AWS Lambda and DynamoDB with Hugging Face API for 95% extraction accuracy.<br>
-        <em>Tools:</em> React, TypeScript, AWS Cloud
-      </li>
-      <li>
-        <a href="https://github.com/bobbydevarapu/LinkSync">LinkSync</a><br>
-        December 2024<br>
-        - Developed a URL shortening landing page with Node.js backend.<br>
-        - Improved user satisfaction by 85% with a user-friendly interface.<br>
-        <em>Tools:</em> HTML, CSS, JavaScript, Node.js
-      </li>
-    </ul>
-  </div>
+  <!-- HTML projects block removed; using Markdown "## Projects" section instead -->
 
   <hr>
 
@@ -191,7 +268,12 @@
     <div align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=bobbydevarapu&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bobbydevarapu&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
-          <img src="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake-dark.svg" alt="Snake Animation" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake.svg" />
+            <!-- Fallback to Platane's example image while your workflow generates repository-specific images -->
+            <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+          </picture>
     </div>
   </div>
 </body>
