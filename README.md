@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+      body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, span, em, strong {
+        font-family: 'Garamond', 'Times New Roman', Times, serif !important;
+      }
+      .project-card {
+        display: inline-block;
+        vertical-align: top;
+        width: 320px;
+        margin: 12px;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        background: #18191a;
+        color: #fff;
+        padding: 18px 16px 16px 16px;
+        box-sizing: border-box;
+        text-align: left;
+      }
+      .project-card img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 10px;
+        background: #222;
+      }
+      .project-card strong {
+        font-size: 1.1em;
+        color: #ffd700;
+      }
+      .project-card a {
+        color: #4fa3ff;
+        text-decoration: underline;
+        font-size: 0.98em;
+      }
+      .project-card ul {
+        margin: 8px 0 0 18px;
+        padding: 0;
+        font-size: 0.97em;
+      }
+      .project-card li {
+        margin-bottom: 4px;
+      }
+    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -47,7 +90,7 @@
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="32" width="42" />
       </a>
       <a href="https://www.codechef.com/users/bbydevarapu" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codechef.svg" alt="CodeChef" height="32" width="42" />
+        <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Codechef-Logo.png" alt="CodeChef" height="32" width="42" style="background:#fff; border-radius:6px; padding:2px;" />
       </a>
       <a href="https://leetcode.com/u/bobbydevarapu" target="_blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="32" width="42" />
@@ -139,30 +182,42 @@
 
   <div class="projects">
     <h3 class="section-title">🚀 Projects</h3>
-    <ul>
-      <li>
-        <strong>Real-Time Stock Market Analytics Pipeline</strong> | AWS Cloud, Python, Kinesis<br>
-        <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Link</a><br>
-        • Architected a serverless real-time data pipeline using Kinesis, Lambda, and DynamoDB to ingest and process events.<br>
-        • Applied anomaly detection logic in Lambda with SNS alerts for price spikes and logged insights to S3.<br>
-        • Configured CloudWatch dashboards that improved monitoring accuracy and cut manual data analysis time by 85%.<br>
-        • Exposed processed data through REST endpoints for downstream applications and monitoring tools.<br>
-      </li>
-      <li>
-        <strong>Automated Receipt Processing System</strong> | AWS S3, Textract, Lambda, SES<br>
-        <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Link</a><br>
-        • Designed a Textract-based OCR workflow with automated ingestion and structured DynamoDB storage.<br>
-        • Developed Lambda-based validation and transformation pipelines with retries and fault-tolerant execution.<br>
-        • Enabled SES-based scheduled reporting, reducing manual expense tracking by 80% through end-to-end automation.<br>
-      </li>
-      <li>
-        <strong>Intelligent Incident Recovery System</strong> | Python/Java, AWS Lambda, DynamoDB<br>
-        <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Link</a><br>
-        • Engineered an automated log-classification pipeline processing 2,000+ events/day across distributed services.<br>
-        • Implemented restart, cleanup, and scaling workflows that accelerated issue resolution by 80%.<br>
-        • Automated incident triage and alerting workflows, improving response efficiency across distributed systems.<br>
-      </li>
-    </ul>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+      <div class="project-card">
+        <img src="realtime-stock.png" alt="Stock Market Analytics" />
+        <strong>Real-Time Stock Market Analytics Pipeline</strong><br>
+        <span style="font-size:0.95em;">AWS Cloud, Python, Kinesis</span><br>
+        <a href="https://github.com/bobbydevarapu/real-time-stock-analytics-aws">Project Link</a>
+        <ul>
+          <li>Architected a serverless real-time data pipeline using Kinesis, Lambda, and DynamoDB to ingest and process events.</li>
+          <li>Applied anomaly detection logic in Lambda with SNS alerts for price spikes and logged insights to S3.</li>
+          <li>Configured CloudWatch dashboards that improved monitoring accuracy and cut manual data analysis time by 85%.</li>
+          <li>Exposed processed data through REST endpoints for downstream applications and monitoring tools.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="automated-receipt.png" alt="Receipt Processing System" />
+        <strong>Automated Receipt Processing System</strong><br>
+        <span style="font-size:0.95em;">AWS S3, Textract, Lambda, SES</span><br>
+        <a href="https://github.com/bobbydevarapu/automated_receipt_processing">Project Link</a>
+        <ul>
+          <li>Designed a Textract-based OCR workflow with automated ingestion and structured DynamoDB storage.</li>
+          <li>Developed Lambda-based validation and transformation pipelines with retries and fault-tolerant execution.</li>
+          <li>Enabled SES-based scheduled reporting, reducing manual expense tracking by 80% through end-to-end automation.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="Intelligent Incident.png" alt="Incident Recovery System" />
+        <strong>Intelligent Incident Recovery System</strong><br>
+        <span style="font-size:0.95em;">Python/Java, AWS Lambda, DynamoDB</span><br>
+        <a href="https://github.com/bobbydevarapu/Intelligent_incident_system">Project Link</a>
+        <ul>
+          <li>Engineered an automated log-classification pipeline processing 2,000+ events/day across distributed services.</li>
+          <li>Implemented restart, cleanup, and scaling workflows that accelerated issue resolution by 80%.</li>
+          <li>Automated incident triage and alerting workflows, improving response efficiency across distributed systems.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <hr>
