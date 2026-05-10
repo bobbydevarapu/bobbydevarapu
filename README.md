@@ -223,6 +223,12 @@
   <img src="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/github-snake-dark.svg" alt="Snake Animation" />
 </p>
 
+### 🌊 Ocean Snake Animation
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bobbydevarapu/bobbydevarapu/output/dist/ocean.gif" alt="Ocean Snake Animation" width="95%" />
+</p>
+
 </div>
 
 <div align="center">
