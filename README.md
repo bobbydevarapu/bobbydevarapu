@@ -1,23 +1,8 @@
-<p align="center">
-  <img src="Gitbanner.png" alt="Profile Banner" />
-</p>
+# Bobby Devarapu
 
-<h1 align="center">Bobby Devarapu</h1>
+**Backend Engineer | AWS Developer | AI Enthusiast**
 
-<p align="center">
-  <strong>Backend Engineer | AWS Developer | AI Enthusiast</strong>
-</p>
-
-<p align="center">
-  Building scalable backend systems, cloud-native applications, and AI-powered platforms.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Developer-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud Developer" />
-  <img src="https://img.shields.io/badge/Backend-SpringBoot%20%7C%20FastAPI-0f172a?style=for-the-badge" alt="Backend" />
-  <img src="https://img.shields.io/badge/DSA-600%2B%20Problems-22c55e?style=for-the-badge" alt="DSA" />
-  <img src="https://img.shields.io/badge/LeetCode-1500%2B-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-</p>
+Building scalable backend systems, cloud-native applications, and AI-powered platforms.
 
 ## About
 
@@ -29,25 +14,11 @@
 
 ## Connect
 
-<p align="center">
-  <a href="mailto:bobbyd9676@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/bobbydevarapu/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/bobbydevarapu"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
-
-<p align="center">
-  <a href="https://codeforces.com/profile/Bobby_01"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" width="40" alt="Codeforces" /></a>
-  <a href="https://www.hackerrank.com/profile/bobbyd9676"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" width="40" alt="HackerRank" /></a>
-  <a href="https://www.geeksforgeeks.org/user/bobbydz1hq/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" width="40" alt="GeeksforGeeks" /></a>
-  <a href="https://leetcode.com/u/BobbyDevarapu/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40" alt="LeetCode" /></a>
-  <a href="https://takeuforward.org/profile/Devera"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="40" alt="TakeUForward" /></a>
-</p>
+📧 Email: [bobbyd9676@gmail.com](mailto:bobbyd9676@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/bobbydevarapu/) | 💻 [GitHub](https://github.com/bobbydevarapu) | 📝 [LeetCode](https://leetcode.com/u/BobbyDevarapu/) | 🏆 [CodeForces](https://codeforces.com/profile/Bobby_01)
 
 ## Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,python,fastapi,spring,react,js,ts,mongodb,mysql,aws,linux,git" alt="Tech Stack" />
-</p>
+Java • Python • FastAPI • Spring Boot • React • JavaScript • TypeScript • MongoDB • MySQL • AWS • Linux • Git
 
 ## Experience
 
