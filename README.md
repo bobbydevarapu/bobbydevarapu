@@ -2,12 +2,6 @@
   <img src="Gitbanner.png" alt="Profile Banner" />
 </p>
 
-<h1 align="center">Bobby Devarapu</h1>
-
-<p align="center">
-  <strong>Backend Engineer • AWS Developer • AI Enthusiast</strong><br/>
-  Building scalable backend systems, cloud-native applications, and AI-powered platforms.
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-Cloud%20Developer-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
