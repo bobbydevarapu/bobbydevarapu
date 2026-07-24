@@ -125,7 +125,7 @@
 
 🔹 Designed FastAPI analysis pipelines with MongoDB storage for similarity tracking and violation management.
 
-🔗 [Live Demo](https://aia-101.up.railway.app/)  
+🔗 [Live Demo]([https://aia-101.up.railway.app/](https://analyzer-101-jb04pjrdi-bobbys-projects-314d44bb.vercel.app/))  
 💻 [GitHub Repository](https://github.com/bobbydevarapu/Analyzer-101)
 
 ---
